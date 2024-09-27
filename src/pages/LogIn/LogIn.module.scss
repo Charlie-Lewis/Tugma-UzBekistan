@@ -1,0 +1,88 @@
+.logIn {
+  background: rgb(88, 2, 2);
+  padding: clamp(1.875rem, -1.15rem + 12.41vw, 6.25rem) 0;
+
+  .container {
+    max-width: 1278px;
+    width: 100%;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 54px;
+    padding: 34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+
+    @media (max-width: 954px) {
+      justify-content: center;
+      max-width: 364px;
+    }
+
+    .block {
+      max-width: 364px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      flex-direction: column;
+      gap: 24px;
+
+      .box_1 {
+        .title {
+          font-size: clamp(2.5rem, 2.068rem + 1.77vw, 3.125rem);
+        }
+
+        .subtitle {
+          font-size: 14px;
+        }
+      }
+
+      .label {
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        background: #f2f2f2;
+        padding: 14px 18px;
+        width: 100%;
+        cursor: text;
+
+        .inpText {
+          font-weight: 400;
+          font-size: 12px;
+          color: #1c1c1c;
+          border: none;
+          outline: none;
+          background-color: transparent;
+          width: 100%;
+
+          &::placeholder {
+            color: #1c1c1c;
+          }
+        }
+      }
+
+      .btn {
+        border-radius: 13px;
+        width: 100%;
+        background: #1c1c1c;
+        font-weight: 700;
+        font-size: 12px;
+        color: #fff;
+        padding: 17px;
+        cursor: pointer;
+      }
+    }
+
+    .log_img {
+      max-width: clamp(31.875rem, -18.313rem + 84.17vw, 39.188rem);
+      width: 100%;
+
+      @media (max-width: 954px) {
+        display: none;
+      }
+    }
+  }
+}

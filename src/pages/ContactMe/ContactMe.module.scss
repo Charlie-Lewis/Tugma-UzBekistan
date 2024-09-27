@@ -1,0 +1,37 @@
+.contactMe {
+  background: rgb(88, 2, 2);
+  padding: clamp(1.875rem, -1.15rem + 12.41vw, 6.25rem) 0
+    clamp(1.875rem, -3.311rem + 21.28vw, 9.375rem);
+
+  .container {
+    max-width: 1059px;
+    width: 100%;
+    margin: 0 auto;
+
+    .subtitle {
+      font-weight: 600;
+      font-size: clamp(1.125rem, 1.039rem + 0.35vw, 1.25rem);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #e9efff;
+      text-align: center;
+    }
+
+    .title {
+      font-size: clamp(2.5rem, 2.068rem + 1.77vw, 3.125rem);
+      line-height: 100%;
+      text-align: center;
+      color: #fff;
+      margin: clamp(0.938rem, 0.549rem + 1.6vw, 1.5rem) 0
+        clamp(1.875rem, 0.578rem + 5.32vw, 3.75rem);
+    }
+
+    .block {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+  }
+}

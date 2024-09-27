@@ -1,0 +1,14 @@
+.ImageLink {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #79b2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+
+  &:hover {
+    background-color: #000;
+  }
+}

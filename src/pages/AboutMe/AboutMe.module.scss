@@ -1,0 +1,84 @@
+.aboutMe {
+  max-width: 1277px;
+  width: 100%;
+  margin: clamp(3.125rem, 1.558rem + 6.43vw, 6.25rem) auto;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 1168px) {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .img {
+    max-width: clamp(21.875rem, 13.196rem + 35.6vw, 39.188rem);
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  .container {
+    max-width: 619px;
+    width: 100%;
+
+    .block_1 {
+      margin-bottom: clamp(3.125rem, 1.558rem + 6.43vw, 6.25rem);
+
+      .subtitle {
+        font-weight: 600;
+        font-size: clamp(1.125rem, 1.062rem + 0.26vw, 1.25rem);
+        letter-spacing: 0.1em;
+        color: rgb(88, 2, 2);
+        margin-bottom: clamp(0.938rem, 0.875rem + 0.26vw, 1.063rem);
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: clamp(2.5rem, 2.187rem + 1.29vw, 3.125rem);
+        margin-bottom: clamp(0.938rem, 0.624rem + 1.29vw, 1.563rem);
+
+        .highlight {
+          color: rgb(88, 2, 2);
+        }
+      }
+
+      .text {
+        font-size: 18px;
+        line-height: 139%;
+
+        .highlight {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .block_2 {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: clamp(0.938rem, 0.624rem + 1.29vw, 1.563rem);
+      margin-bottom: clamp(1.875rem, 1.405rem + 1.93vw, 2.813rem);
+
+      @media (max-width: 599px) {
+        flex-direction: column;
+      }
+
+      button {
+        @media (max-width: 599px) {
+          width: 100%;
+        }
+      }
+    }
+
+    .block_3 {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(1.313rem, 1.187rem + 0.51vw, 1.563rem);
+
+      @media (max-width: 1168px) {
+        text-align: left;
+      }
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.ourProjects {
+  max-width: 1278px;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: clamp(1.875rem, -1.15rem + 12.41vw, 6.25rem) 0;
+
+  .container_1 {
+    max-width: 684px;
+    width: 100%;
+    margin: 0 auto;
+
+    .subtitle {
+      font-weight: 600;
+      font-size: clamp(1.125rem, 1.039rem + 0.35vw, 1.25rem);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: rgb(88, 2, 2);
+    }
+
+    .title {
+      font-size: clamp(2.5rem, 2.068rem + 1.77vw, 3.125rem);
+      line-height: 100%;
+      margin: clamp(0.938rem, 0.549rem + 1.6vw, 1.5rem) 0
+        clamp(1.875rem, 1.011rem + 3.55vw, 3.125rem);
+    }
+  }
+
+  .container_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: clamp(0.625rem, 0.02rem + 2.48vw, 1.5rem);
+    column-gap: clamp(0.938rem, 0.549rem + 1.6vw, 1.5rem);
+    margin-bottom: clamp(1.875rem, 1.011rem + 3.55vw, 3.125rem);
+  }
+
+  .container_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    .img {
+      max-width: clamp(23.125rem, 21.569rem + 6.38vw, 25.375rem);
+      width: 100%;
+    }
+  }
+}

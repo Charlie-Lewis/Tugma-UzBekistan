@@ -1,0 +1,19 @@
+.ourMilestonesCard {
+  border-radius: 15px;
+  padding: 30px;
+  max-width: 297px;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+
+  .title {
+    font-size: 50px;
+    line-height: 100%;
+    margin-bottom: 15px;
+  }
+
+  .text {
+    font-weight: 600;
+    font-size: 20px;
+  }
+}

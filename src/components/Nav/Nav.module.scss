@@ -1,0 +1,49 @@
+.nav {
+  max-width: 1309px;
+  width: 100%;
+  margin: 15px auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+
+  .container {
+    max-width: 794px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 954px) {
+      display: none;
+    }
+
+    .links {
+      max-width: 614px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+
+      .link {
+        font-weight: 600;
+        font-size: 19px;
+        color: #333;
+        text-decoration: none;
+        transition: 0.5s;
+
+        &:hover {
+          color: rgb(255, 0, 0);
+        }
+      }
+    }
+  }
+
+  .burger_menu {
+    display: none;
+    cursor: pointer;
+
+    @media (max-width: 954px) {
+      display: block;
+    }
+  }
+}

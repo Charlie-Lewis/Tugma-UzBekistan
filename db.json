@@ -1,0 +1,266 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "title": "Наши Навыки",
+      "padding": "13px 31px",
+      "info": {
+        "text": ["Опыт", "Скиловый Состав", "Всемирная Связь"],
+        "width": ["70%", "80%", "90%"]
+      }
+    },
+    {
+      "id": "2",
+      "title": "Награды",
+      "padding": "13px 61px",
+      "info": {
+        "text": [
+          "Лучшие Пуговицы 2021",
+          "Лучшие Пуговицы 2022",
+          "Лучшие Пуговицы 2024"
+        ],
+        "width": ["90%", "70%", "80%"]
+      }
+    },
+    {
+      "id": "3",
+      "title": "Персонал",
+      "padding": "13px 48px",
+      "info": {
+        "text": ["Продавцы", "Менеджеры", "Рабочий Состав"],
+        "width": ["80%", "90%", "70%"]
+      }
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "Пуговицы",
+      "text": "Создаем Уникальный дизайн по вашему выбору"
+    },
+    {
+      "id": "2",
+      "title": "Стратегический Маркетинг и Реклама",
+      "text": "Мы также продвигаем ваш товар"
+    },
+    {
+      "id": "3",
+      "title": "Пуговицы под Вас",
+      "text": "Мы можем создать пуговицу любой формы а также любого размера"
+    },
+    {
+      "id": "4",
+      "title": "Хорошая Скидка",
+      "text": "Мы даем хорошую скидку в размере 20% на ваш следующий заказ"
+    }
+  ],
+  "ourProjects": [
+    {
+      "id": "1",
+      "title": "Все",
+      "padding": "13px 57px",
+      "image": [
+        {
+          "id": 1,
+          "src": "/images-_1_.png",
+          "alt": "proj1"
+        },
+        {
+          "id": 2,
+          "src": "/Без-названия.png",
+          "alt": "proj2"
+        },
+        {
+          "id": 3,
+          "src": "/Без-названия-_1_.png",
+          "alt": "proj3"
+        },
+        {
+          "id": 4,
+          "src": "/images-_2_.png",
+          "alt": "proj4"
+        },
+        {
+          "id": 5,
+          "src": "/images-_3_.png",
+          "alt": "proj5"
+        },
+        {
+          "id": 6,
+          "src": "/images.png",
+          "alt": "proj6"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Обычные Пуговицы",
+      "padding": "13px 34px",
+      "image": [
+        {
+          "id": 1,
+          "src": "/images.png",
+          "alt": "proj6"
+        },
+        {
+          "id": 2,
+          "src": "/images-_1_.png",
+          "alt": "proj1"
+        },
+        {
+          "id": 3,
+          "src": "/Без-названия.png",
+          "alt": "proj2"
+        },
+        {
+          "id": 4,
+          "src": "/images-_2_.png",
+          "alt": "proj4"
+        },
+        {
+          "id": 5,
+          "src": "/Без-названия-_1_.png",
+          "alt": "proj3"
+        },
+        {
+          "id": 6,
+          "src": "/images-_3_.png",
+          "alt": "proj5"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Брендированные  Пуговицы ",
+      "padding": "13px 30px",
+      "image": [
+        {
+          "id": 1,
+          "src": "/Без-названия.png",
+          "alt": "proj2"
+        },
+        {
+          "id": 2,
+          "src": "/images-_1_.png",
+          "alt": "proj1"
+        },
+        {
+          "id": 3,
+          "src": "/Без-названия-_1_.png",
+          "alt": "proj3"
+        },
+        {
+          "id": 4,
+          "src": "/images-_2_.png",
+          "alt": "proj4"
+        },
+        {
+          "id": 5,
+          "src": "/images-_3_.png",
+          "alt": "proj5"
+        },
+        {
+          "id": 6,
+          "src": "/images.png",
+          "alt": "proj6"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Пуговицы Наших Дизайнов",
+      "padding": "13px 45px",
+      "image": [
+        {
+          "id": 1,
+          "src": "/images-_1_.png",
+          "alt": "proj1"
+        },
+        {
+          "id": 2,
+          "src": "/Без-названия.png",
+          "alt": "proj2"
+        },
+        {
+          "id": 3,
+          "src": "/Без-названия-_1_.png",
+          "alt": "proj3"
+        },
+        {
+          "id": 4,
+          "src": "/images-_2_.png",
+          "alt": "proj4"
+        },
+        {
+          "id": 5,
+          "src": "/images-_3_.png",
+          "alt": "proj5"
+        },
+        {
+          "id": 6,
+          "src": "/images.png",
+          "alt": "proj6"
+        }
+      ]
+    }
+  ],
+  "ourMilestones": [
+    {
+      "id": "1",
+      "title": 80000,
+      "suffix": "+",
+      "text": "Изготовленных Пуговиц"
+    },
+    {
+      "id": "2",
+      "title": 99.9,
+      "suffix": "%",
+      "text": "Довольные Клиенты"
+    },
+    {
+      "id": "3",
+      "title": 3.5,
+      "suffix": "K+",
+      "text": "Клиентов"
+    },
+    {
+      "id": "4",
+      "title": 40,
+      "suffix": "+",
+      "text": "Действущих Магазинов и Ларьков"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "src": "/user_none.png",
+      "alt": "user_none",
+      "count": 5,
+      "text": "По моему мнению самые лучшие пуговицы здесь",
+      "title": "Zamira Yuldashevna",
+      "subtitle": "Customer"
+    },
+    {
+      "id": "2",
+      "src": "/user_none.png",
+      "alt": "user_none",
+      "count": 5,
+      "text": "ТОП!!!1",
+      "title": "Fktrctq Fynjyjd",
+      "subtitle": "Customer"
+    },
+    {
+      "id": "3",
+      "src": "/user_none.png",
+      "alt": "user_none",
+      "count": 4,
+      "text": "Долго но качественно",
+      "title": "Rano Muhammadovna",
+      "subtitle": "Kto to"
+    }
+  ],
+  "admin": {
+    "username": "admin",
+    "password": "7777777"
+  }
+}

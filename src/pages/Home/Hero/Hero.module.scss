@@ -1,0 +1,97 @@
+.header {
+  max-width: 1277px;
+  width: 100%;
+  margin: clamp(1.875rem, -0.179rem + 8.43vw, 5.188rem) auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: clamp(0.938rem, 0.419rem + 2.13vw, 1.875rem);
+
+  @media (max-width: 1095px) {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .container {
+    max-width: 624px;
+    width: 100%;
+
+    .block_1 {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: clamp(1.875rem, 1.184rem + 2.84vw, 3.125rem);
+
+      .subtitle {
+        font-weight: 600;
+        font-size: clamp(1.25rem, 1.077rem + 0.71vw, 1.563rem);
+      }
+
+      .title {
+        font-weight: 700;
+        font-size: clamp(3.125rem, 2.779rem + 1.42vw, 3.75rem);
+        line-height: 125%;
+
+        .highlight {
+          font-size: clamp(3.125rem, 2.434rem + 2.84vw, 4.375rem);
+          color: rgb(88, 2, 2);
+        }
+      }
+
+      .text {
+        font-size: clamp(1.25rem, 1.077rem + 0.71vw, 1.563rem);
+        line-height: 140%;
+      }
+    }
+
+    .block_2 {
+      max-width: 446px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 1095px) {
+        max-width: none;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+      }
+
+      .btn {
+        border: 1px solid rgb(88, 2, 2);
+        border-radius: 50px;
+        padding: 13px 36px;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        font-weight: 600;
+        font-size: 20px;
+        color: rgb(88, 2, 2);
+        transition: 0.5s;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+          background: rgb(88, 2, 2);
+          color: #fff;
+
+          .svg .path {
+            fill: #fff;
+          }
+        }
+
+        .svg .path {
+          fill: green;
+          transition: 0.5s;
+        }
+      }
+    }
+  }
+
+  .img_user {
+    max-width: clamp(21.875rem, 14.856rem + 28.79vw, 34.563rem);
+    width: 100%;
+    border-radius: 50%;
+  }
+}

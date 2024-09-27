@@ -1,0 +1,15 @@
+.btnPrimary {
+  border-radius: 50px;
+  background: rgb(255, 0, 0);
+  border: 1px solid rgb(255, 0, 0)f;
+  font-weight: 600;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+
+  &:hover {
+    background: transparent;
+    color: rgb(255, 0, 0);
+  }
+}

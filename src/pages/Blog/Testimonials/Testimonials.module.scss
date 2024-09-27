@@ -1,0 +1,29 @@
+.testimonials {
+  max-width: 1278px;
+  width: 100%;
+  margin: clamp(1.875rem, -15.091rem + 28.46vw, 6.25rem) auto;
+  text-align: center;
+
+  .subtitle {
+    font-weight: 600;
+    font-size: clamp(1.125rem, 1.039rem + 0.35vw, 1.25rem);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgb(88, 2, 2);
+  }
+
+  .title {
+    font-size: clamp(2.5rem, 2.068rem + 1.77vw, 3.125rem);
+    line-height: 100%;
+    margin: clamp(0.938rem, -0.274rem + 2.03vw, 1.25rem) 0
+      clamp(1.875rem, -2.973rem + 8.13vw, 3.125rem);
+  }
+
+  .container_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: clamp(1.875rem, -2.973rem + 8.13vw, 3.125rem);
+  }
+}

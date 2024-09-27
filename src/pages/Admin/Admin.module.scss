@@ -1,0 +1,20 @@
+.admin {
+  max-width: 1277px;
+  width: 100%;
+  margin: clamp(1.875rem, -0.231rem + 8.64vw, 6.25rem) auto;
+
+  .link {
+    margin: 0 auto clamp(1.875rem, 1.273rem + 2.47vw, 3.125rem);
+    width: 130px;
+    display: block;
+    text-decoration: none;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}

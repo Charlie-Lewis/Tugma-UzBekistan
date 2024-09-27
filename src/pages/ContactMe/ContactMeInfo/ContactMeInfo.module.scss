@@ -1,0 +1,25 @@
+.contactMeInfo {
+  border-radius: 15px;
+  padding: 30px;
+  background: #fff;
+  max-width: 514px;
+  width: 100%;
+
+  .block_1 {
+    line-height: 125%;
+
+    .subtitle {
+      font-size: 16px;
+    }
+
+    .title {
+      margin: 13px 0 40px;
+    }
+  }
+
+  .block_2 {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+}

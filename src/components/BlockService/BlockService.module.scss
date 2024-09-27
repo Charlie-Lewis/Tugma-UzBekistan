@@ -1,0 +1,69 @@
+.blockService {
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 406px;
+  width: 100%;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  cursor: pointer;
+
+  &:hover {
+    background: rgb(255, 0, 0);
+    color: #fff;
+
+    .img .imgPath {
+      stroke: #fff;
+    }
+
+    .text {
+      color: #fff;
+    }
+
+    .block {
+      color: #fff;
+
+      .btn .btnPath {
+        fill: #fff;
+      }
+    }
+  }
+
+  .img {
+    margin-bottom: 20px;
+
+    .imgPath {
+      transition: 0.5s;
+    }
+  }
+
+  .title {
+    font-size: 25px;
+    line-height: 120%;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.01em;
+    color: #333;
+    transition: 0.5s;
+    min-height: 93px;
+  }
+
+  .block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: -0.01em;
+    color: rgb(255, 0, 0);
+    transition: 0.5s;
+
+    .btn .btnPath {
+      transition: 0.5s;
+    }
+  }
+}

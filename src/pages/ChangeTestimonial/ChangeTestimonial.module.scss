@@ -1,0 +1,77 @@
+.changeTestimonial {
+  background: rgb(88, 2, 2);
+  padding: 100px 0;
+
+  .title {
+    font-size: clamp(2.5rem, 2.068rem + 1.77vw, 3.125rem);
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    margin-bottom: clamp(1.875rem, 1.011rem + 3.55vw, 3.125rem);
+  }
+
+  .form {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+    .tooltip {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+
+      .tooltiptext {
+        background-color: #ff8800;
+        color: rgb(88, 2, 2);
+        border-radius: 6px;
+        padding: 5px 20px;
+        position: absolute;
+        z-index: 1;
+        bottom: 130%;
+        left: 50%;
+        margin-left: -60px;
+      }
+    }
+
+    input,
+    .textarea {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 125%;
+      color: #666;
+      border-radius: 5px;
+      padding: 15px;
+      border: none;
+      width: 100%;
+
+      &::placeholder {
+        color: #666;
+      }
+    }
+
+    .textarea {
+      height: 142px;
+      resize: none;
+    }
+
+    .submit {
+      border-radius: 50px;
+      padding: 17px 33px;
+      background: #00489a;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 100%;
+      color: #fff;
+      border: none;
+      transition: 0.5s;
+      cursor: pointer;
+
+      &:hover {
+        background: rgba(0, 72, 154, 0.7);
+      }
+    }
+  }
+}
